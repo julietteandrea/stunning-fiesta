@@ -1,6 +1,59 @@
 {% extends 'base.html' %}
 {% block head %}
-Hello, my name is
-Juliette Gil
-I'm a software engineer based somewhere in the US. I'm a curious mind who loves to code and see successful results.
 {% endblock %}
+
+{% block content %}
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Juliette.</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>   
+
+
+<div id="home" class="container-fluid">
+  <h1>Hey! I'm Juliette Gil</h1>
+  <p>I'm a software engineer based somewhere in the US. I'm a curious mind who loves to code and see successful results.</p>
+
+<!-- particles.js container --> 
+<div id="particles-js"></div> 
+<!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> 
+<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+</div>
+
+<div id="about" class="container-fluid">
+  <h1>About me</h1>
+  <p>Hello friends, My name is Juliette. I am a recent graduate from Hackbright Academy after completing three months ofI've always been interested in making my client's life easier and more convenient. After spending many years as a concierge for a four-star, luxury hotel in Manhattan, overtime I noticed that some of the more impact ways to make things easier came from the application of technology to real life problems. However, oftentimes a perfect solution to a problem would require a very customized solution, unavailable off-the-shelf. This sparked my interest in building customized software and shortly after, I left New York City to live remotely and focus full-time on my career switch into technolgy.</p>
+</div>
+<div id="projects" class="container-fluid">
+  <h1>Projects</h1>
+  <p></p>
+</div>
+<div id="contact" class="container-fluid">
+  <h1>Get in touch.</h1>
+  <p></p>
+</div>
+
+<!-- Javascript -->
+<script src="/static/js/homepage.js"></script>
+
+{% endblock %}
+
