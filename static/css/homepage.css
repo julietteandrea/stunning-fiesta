@@ -24,7 +24,13 @@ body {
  }
  
  #projects {padding-top:50px;height:500px;color: #000000; background-color: #FFFFFF;}
- #contact {padding-top:50px;height:500px;color: #000000; background-color: #FFFFFF;}
+ #contact {
+ 	padding-top:50px;
+ 	height:750px;
+ 	color: #000000;
+ 	background-color: #FFFFFF;
+ 	text-align: center;
+ }
 
  /* ---- reset ---- */ 
  /*body{ margin:0; font:normal 75% Arial, Helvetica, sans-serif; } */
@@ -53,3 +59,65 @@ body {
  	} 
  #stats{ border-radius: 3px 3px 0 0; overflow: hidden; } 
  .count-particles{ border-radius: 0 0 3px 3px; }
+
+ /* ---- Contact Form --- */
+ input[type=text], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+	color: #FFFFFF;
+	}
+
+input[type=submit] {
+    background-color: #000000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 1px solid #000000;
+}
+
+/* --- Footer ---*/
+
+.fcontainer {
+	background-color: #F2F2F2;
+	width: auto;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0px;
+  font-size: 10px;
+  left: 18px;
+  right: 18px;
+  margin: auto;
+  font-size: 1em;
+  color: #555753;
+}
+
+a {
+ 	color: #555753;
+  	text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #beb4c9;
+}
+
+a:active {
+  text-decoration: none;
+  color: #fff;
+}
+
